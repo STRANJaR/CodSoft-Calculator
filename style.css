@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+
+.mx-auto{
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding: 1.7rem;
+    border-radius: 0.4rem;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0px 5px;
+    font-size: 1.6rem;
+}
+.button:hover{
+    background-color: rgb(31, 26, 26);
+
+}
+.row{
+margin: 0.5rem 1rem;
+}
+.space-btn{
+    padding: 1.2rem 3.1rem;
+}
+
+.bg-yellow {
+    background-color: orange;
+}
+.bg-yellow:hover{
+    background-color: rgb(255, 185, 54);
+}
+
+.input{
+    padding: 1rem 0rem;
+    font-size: 1.6rem
+}
+
+.top-order-btn{
+    padding: 1rem 3.9rem;
+}
